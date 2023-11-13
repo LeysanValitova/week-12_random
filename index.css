@@ -1,0 +1,33 @@
+#world {
+    width: 200px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color:green;
+    font-weight: 700;
+}
+
+.btn {
+    width: 200px;
+    height: 40px;
+    background-color:hotpink;
+    color: white;
+    border-radius: 7px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.wrapper {
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+body {
+    background-image: url(images/screen-8.jpg);
+}
